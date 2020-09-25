@@ -8,7 +8,6 @@
   
   let elementsToRender = [];
   elements.subscribe(els => {
-    console.log(els);
     elementsToRender = els;
   });
   
